@@ -80,7 +80,7 @@ h3 {
 	/* text-align: center; */
 	margin: 0;
 	padding: 1em 0;
-	color: #494949;
+	color: #696969;
 }
 
 p {
@@ -150,7 +150,7 @@ CSS Grid layout for wider screens, when browser supports grid:
 }
 
 body {
-	background-color: aliceblue
+	background-color: white
 	/* background-color: rgb(188, 222, 203) */
 }
 
@@ -164,11 +164,11 @@ body {
 
 
 main {
-	grid-column: 2/7;
-    background-color:  aliceblue;
+	grid-column: 2/8;
+    background-color:  white;
     /* background-color:  rgb(188, 222, 203); */
     padding: 1rem;
-	grid-row: 2;
+	/* grid-row: 2; */
 }
 
 header,
@@ -176,7 +176,7 @@ footer {
 	display: grid;
     grid-column: span 8;
 	grid-template-columns: 1fr repeat(3, minmax(auto, 30em)) 1fr;
-	background-color: aliceblue;
+	background-color: white;
 	padding-top: 0.4rem;
 	padding-bottom: 0.4rem;
 }
@@ -217,7 +217,7 @@ header span {
 header {
     min-height: 3rem;
     border-bottom: 1px solid #666;
-	background-color: aliceblue
+	/* background-color: aliceblue */
 }
 
 header a {
@@ -238,7 +238,7 @@ footer {
 
 section {
 	margin-bottom: 8rem;
-	background-color:#c7cdcc;
+	background-color:aliceblue;
 	min-height: 36rem;
 }
 
